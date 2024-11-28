@@ -24,7 +24,7 @@ class DYImageClusterNode:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "cluster_image"
-    CATEGORY = "dygen/effects"
+    CATEGORY = "DyGen/effects"
 
     def cluster_image(self, image, radius=16):
         # Convert from tensor format [B, H, W, C] to numpy array

@@ -31,7 +31,7 @@ class DYImageQuantizeNode:
 
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "quantize_image"
-    CATEGORY = "dygen/effects"
+    CATEGORY = "DyGen/effects"
 
     def quantize_image(self, image, colors=256, method="MEDIANCUT", kmeans=0):
         # Convert from tensor format [B, H, W, C] to numpy array

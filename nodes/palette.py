@@ -31,7 +31,7 @@ class DYImagePaletteNode:
 
     RETURN_TYPES = ("COLOR_PALETTE",)
     FUNCTION = "extract_colors"
-    CATEGORY = "dygen/analysis"
+    CATEGORY = "DyGen/generation"
 
     def extract_colors(self, image: torch.Tensor) -> Tuple[List[Tuple[int, int, int]], ...]:
         # Convert from tensor format [B, H, W, C] to numpy array

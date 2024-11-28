@@ -17,7 +17,7 @@ class ImageListToGrid:
     
     RETURN_TYPES = ("IMAGE",)
     FUNCTION = "create_grid"
-    CATEGORY = "image/transform"
+    CATEGORY = "DyGen/preview"
     
     def create_grid(self, images, max_columns=3):
         import torch

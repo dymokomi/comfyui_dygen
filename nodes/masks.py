@@ -18,7 +18,7 @@ class DYImageMasksNode:
 
     RETURN_TYPES = ("IMAGE_LIST",)
     FUNCTION = "create_masks"
-    CATEGORY = "dygen/generation"
+    CATEGORY = "DyGen/generation"
 
     def create_masks(self, image, palette):
         # Convert from tensor format [B, H, W, C] to numpy array
