@@ -1,0 +1,14 @@
+[project]
+name = "comfyui_dygen"
+description = "NODES: DY Image Quantize, DY Image Cluster, DY Image Palette, DY Image Masks, Image List to Grid, DY Image Scaler, DY Random Lines, DY Adaptive Color Lines, DY Adaptive Color Circles, DY Adaptive Color Rectangles, DY Binary Pattern Stamper"
+version = "1.0.0"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/dymokomi/comfyui_dygen"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui_dygen"
+Icon = ""
